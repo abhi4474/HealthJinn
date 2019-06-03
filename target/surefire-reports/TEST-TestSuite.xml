@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.204" tests="2" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\target\test-classes;C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\target\classes;C:\Users\ab.chauhan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ab.chauhan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.46.0\selenium-java-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.46.0\selenium-chrome-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.46.0\selenium-remote-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.46.0\selenium-api-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.46.0\selenium-htmlunit-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.17\htmlunit-2.17.jar;C:\Users\ab.chauhan\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ab.chauhan\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ab.chauhan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpmime\4.4.1\httpmime-4.4.1.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\ab.chauhan\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ab.chauhan\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\ab.chauhan\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.11.v20150529\websocket-client-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\jetty-util\9.2.11.v20150529\jetty-util-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\jetty-io\9.2.11.v20150529\jetty-io-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.11.v20150529\websocket-common-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.11.v20150529\websocket-api-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.46.0\selenium-firefox-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.46.0\selenium-ie-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\ab.chauhan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.46.0\selenium-safari-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.46.0\selenium-support-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\ab.chauhan\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.46.0\selenium-leg-rc-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\io\appium\java-client\3.1.0\java-client-3.1.0.jar;C:\Users\ab.chauhan\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\ab.chauhan\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\ab.chauhan\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\ab.chauhan\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\ab.chauhan\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\ab.chauhan\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\ab.chauhan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\ab.chauhan\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\ab.chauhan\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\ab.chauhan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ab.chauhan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ab.chauhan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ab.chauhan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\ab.chauhan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ab.chauhan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ab.chauhan\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\AB1636~1.CHA\AppData\Local\Temp\surefire7007210640381122529\surefirebooter777896756366133962.jar C:\Users\ab.chauhan\AppData\Local\Temp\surefire7007210640381122529 2019-05-06T16-46-57_474-jvmRun1 surefire8228527208027766941tmp surefire_02400980374220064562tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\target\test-classes;C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\target\classes;C:\Users\ab.chauhan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ab.chauhan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.46.0\selenium-java-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.46.0\selenium-chrome-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.46.0\selenium-remote-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.46.0\selenium-api-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.46.0\selenium-htmlunit-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.17\htmlunit-2.17.jar;C:\Users\ab.chauhan\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ab.chauhan\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ab.chauhan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpmime\4.4.1\httpmime-4.4.1.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\ab.chauhan\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ab.chauhan\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\ab.chauhan\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\ab.chauhan\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.11.v20150529\websocket-client-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\jetty-util\9.2.11.v20150529\jetty-util-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\jetty-io\9.2.11.v20150529\jetty-io-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.11.v20150529\websocket-common-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.11.v20150529\websocket-api-9.2.11.v20150529.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.46.0\selenium-firefox-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.46.0\selenium-ie-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\ab.chauhan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.46.0\selenium-safari-driver-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.46.0\selenium-support-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\ab.chauhan\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\ab.chauhan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.46.0\selenium-leg-rc-2.46.0.jar;C:\Users\ab.chauhan\.m2\repository\io\appium\java-client\3.1.0\java-client-3.1.0.jar;C:\Users\ab.chauhan\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\ab.chauhan\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\ab.chauhan\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\ab.chauhan\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\ab.chauhan\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\ab.chauhan\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\ab.chauhan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\ab.chauhan\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\ab.chauhan\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\ab.chauhan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ab.chauhan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ab.chauhan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ab.chauhan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\ab.chauhan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\ab.chauhan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ab.chauhan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ab.chauhan\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ab.chauhan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="basedir" value="C:\Users\ab.chauhan\Documents\EclipseProjects\Automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\AB1636~1.CHA\AppData\Local\Temp\surefire7007210640381122529\surefirebooter777896756366133962.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="user.name" value="ab.chauhan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ab.chauhan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AB1636~1.CHA\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="user.dir" value="C:\Users\ab.chauhan\Documents\EclipseProjects\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_162/jre/bin/server;C:/Program Files/Java/jdk1.8.0_162/jre/bin;C:/Program Files/Java/jdk1.8.0_162/jre/lib/amd64;C:\Users\ab.chauhan\Downloads\apache-maven-3.6.0\bin;C:\Python27\Scripts;C:\Python27;C:\Users\ab.chauhan\AppData\Local\Android\Sdk;C:\Users\ab.chauhan\AppData\Local\Android\Sdk\tools;C:\Users\ab.chauhan\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_162/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\ab.chauhan\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ab.chauhan\AppData\Local\Programs\Python\Python37-32\;C:\Users\ab.chauhan\AppData\Local\Programs\Git\cmd;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUp" classname="tests.LoginTest" time="4.817">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;GSG1PM-FT0384&apos;, ip: &apos;10.10.23.99&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'GSG1PM-FT0384', ip: '10.10.23.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: driver.version: AndroidDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+</failure>
+    <system-out><![CDATA[file path: C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\config.properties
+Inside application handling constructor
+C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\FrameworkReports\06_May_2019
+file path: C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\config.properties
+Inside application handling constructor
+C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\FrameworkReports\06_May_2019
+Driver:null
+URL:http://0.0.0.0:4723/wd/hub
+cap: Capabilities [{appPackage="com.ionicframework.aceappclient150562", appActivity="com.ionicframework.aceappclient150562.MainActivity", noReset=true, automationName=uiautomator2, unicodeKeyboard=true, platformName=Android, deviceName=Redmi, version=7.0, resetKeyboard=true}]
+]]></system-out>
+  </testcase>
+  <testcase name="loginDataDetails" classname="tests.LoginTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[file path: C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\config.properties
+Inside Constructor
+C:\Users\ab.chauhan\Downloads\SanityTestCases.xlsx
+located Excel at C:\Users\ab.chauhan\Downloads\SanityTestCases.xlsx
+Sheet 1
+located s heet : Sheet 1
+File Located at :C:\Users\ab.chauhan\Downloads\SanityTestCases.xlsx
+Fileinputstream Executed: 14762
+file path: C:\Users\ab.chauhan\Documents\EclipseProjects\Automation\config.properties
+Inside excel handler
+Workbook
+excelhandler1
+excelhandler finished  1
+Excelutilities.ExcelHandler@1e861a1e
+Sheet 1
+selected sheet name  Sheet 1
+row count is : 30
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Suite" verbose="1" parallel="tests" thread-count="2">
+
+<listeners>
+    <listener class-name="listeners.AppiumListeners"/>
+</listeners>
+
+
+    <test name="test_redmi">
+        <parameter name="device" value="Redmi"/>
+        <parameter name="version" value="7.0"/>
+        <classes>
+            <class name="tests.LoginTest">
+                 <methods>
+                     <include name="loginOTP"/>
+                 </methods>
+            </class>
+
+           <!-- <class name="Tests.MoreTest"></class>
+            <class name="Tests.MyPolicyTest"></class>
+            <class name="Tests.MyClaimsTest"></class>-->
+        </classes>
+    </test>
+
+</suite>
+
